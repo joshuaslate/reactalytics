@@ -30,7 +30,7 @@
     "@reactalytics/core": "^0.0.1"
   },
   "devDependencies": {
-    "@sentry/react": "^7.20.1"
+    "@sentry/react": "^7.21.0"
   },
   "peerDependencies": {
     "@sentry/react": "7"
