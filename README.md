@@ -1,6 +1,6 @@
 # Reactalytics
 
-[![CI](https://github.com/joshuaslate/reactalytics/actions/workflows/main.yml/badge.svg)](https://github.com/joshuaslate/reactalytics/actions/workflows/main.yml) [![Node version](https://img.shields.io/npm/dm/@reactalytics/core.svg?maxAge=43200&label=v0.0.0%20downloads)](https://www.npmjs.com/package/@reactalytics/core) [![Code coverage](https://codecov.io/gh/joshuaslate/reactalytics/branch/main/graph/badge.svg)](https://codecov.io/gh/joshuaslate/reactalytics)
+[![CI](https://github.com/joshuaslate/reactalytics/actions/workflows/main.yml/badge.svg)](https://github.com/joshuaslate/reactalytics/actions/workflows/main.yml) [![npm info](https://img.shields.io/npm/dm/@reactalytics/core)](https://www.npmjs.com/package/@reactalytics/core) [![Code coverage](https://codecov.io/gh/joshuaslate/reactalytics/branch/main/graph/badge.svg)](https://codecov.io/gh/joshuaslate/reactalytics)
 
 Abstraction for handling multiple analytics and error tracking clients in a React-based application. In larger apps, a codebase can end up having several analytics and error clients. For example, marketing may request Google Analytics, while a data science team would request Amplitude events. Even if your project is only using one analytics client and one error client, using an abstraction like Reactalytics allows you to switch providers on a dime if you decide. The goal of this library is to simplify tracking to a common interface, where events can be sent to as many providers as you want, in unison.
 
