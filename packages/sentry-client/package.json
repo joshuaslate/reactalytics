@@ -26,13 +26,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@reactalytics/core": "^0.0.2"
-  },
   "devDependencies": {
+    "@reactalytics/core": "*",
     "@sentry/react": "^7.21.0"
   },
   "peerDependencies": {
+    "@reactalytics/core": "*",
     "@sentry/react": "7"
   }
 }

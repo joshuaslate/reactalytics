@@ -26,13 +26,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@reactalytics/core": "^0.0.2"
-  },
   "devDependencies": {
-    "@amplitude/analytics-browser": "^1.6.3"
+    "@amplitude/analytics-browser": "^1.6.3",
+    "@reactalytics/core": "*"
   },
   "peerDependencies": {
-    "@amplitude/analytics-browser": "1.6.x"
+    "@amplitude/analytics-browser": "1.6.x",
+    "@reactalytics/core": "*"
   }
 }

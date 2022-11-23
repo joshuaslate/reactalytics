@@ -29,14 +29,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@reactalytics/core": "^0.0.2"
-  },
   "peerDependencies": {
+    "@reactalytics/core": "*",
     "react": "18",
     "react-dom": "18"
   },
   "devDependencies": {
+    "@reactalytics/core": "*",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",

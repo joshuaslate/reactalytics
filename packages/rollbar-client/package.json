@@ -26,13 +26,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@reactalytics/core": "^0.0.2"
-  },
   "devDependencies": {
+    "@reactalytics/core": "*",
     "rollbar": "^2.25.2"
   },
   "peerDependencies": {
+    "@reactalytics/core": "*",
     "rollbar": "2"
   }
 }

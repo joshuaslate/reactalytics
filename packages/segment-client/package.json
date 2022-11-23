@@ -27,13 +27,12 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@reactalytics/core": "^0.0.2"
-  },
   "peerDependencies": {
+    "@reactalytics/core": "*",
     "@segment/analytics-next": "^1"
   },
   "devDependencies": {
+    "@reactalytics/core": "*",
     "@segment/analytics-next": "^1.46.3"
   }
 }
