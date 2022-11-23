@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/segment-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A @reactalytics client for sending events to Segment",
   "keywords": [
     "segment",
@@ -32,7 +32,7 @@
     "@segment/analytics-next": "^1"
   },
   "devDependencies": {
-    "@reactalytics/core": "*",
+    "@reactalytics/core": "^0.0.3",
     "@segment/analytics-next": "^1.46.3"
   }
 }

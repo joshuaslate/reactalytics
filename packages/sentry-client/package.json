@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/sentry-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A @reactalytics client for sending error events to Sentry",
   "keywords": [
     "sentry",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@reactalytics/core": "*",
+    "@reactalytics/core": "^0.0.3",
     "@sentry/react": "^7.21.1"
   },
   "peerDependencies": {

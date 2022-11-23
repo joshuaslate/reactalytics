@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/amplitude-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A @reactalytics client for sending events to Amplitude",
   "keywords": [
     "amplitude",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@amplitude/analytics-browser": "^1.6.3",
-    "@reactalytics/core": "*"
+    "@reactalytics/core": "^0.0.3"
   },
   "peerDependencies": {
     "@amplitude/analytics-browser": "1.6.x",

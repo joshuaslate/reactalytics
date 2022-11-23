@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/rollbar-client",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A @reactalytics client for sending error events to Rollbar",
   "keywords": [
     "rollbar",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@reactalytics/core": "*",
+    "@reactalytics/core": "^0.0.3",
     "rollbar": "^2.25.2"
   },
   "peerDependencies": {
