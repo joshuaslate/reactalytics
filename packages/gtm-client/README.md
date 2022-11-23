@@ -1,5 +1,7 @@
 # `@reactalytics/gtm-client`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/gtm-client)](https://www.npmjs.com/package/@reactalytics/gtm-client)
+
 This is the analytics client that can be used in conjunction with `@reactalytics/core` to send tracking and page view events to [Google Tag Manager/Google Analytics](https://tagmanager.google.com/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).

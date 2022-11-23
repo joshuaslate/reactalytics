@@ -1,5 +1,7 @@
 # `@reactalytics/sentry-client`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/sentry-client)](https://www.npmjs.com/package/@reactalytics/sentry-client)
+
 This is the error client that can be used in conjunction with `@reactalytics/core` to send error events to [Sentry](https://sentry.io/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).

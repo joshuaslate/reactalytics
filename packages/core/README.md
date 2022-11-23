@@ -1,5 +1,7 @@
 # `@reactalytics/core`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/core)](https://www.npmjs.com/package/@reactalytics/core)
+
 Abstraction for handling multiple analytics and error tracking clients in a React-based application. In larger apps, a codebase can end up having several analytics and error clients. For example, marketing may request Google Analytics, while a data science team would request Amplitude events. Even if your project is only using one analytics client and one error client, using an abstraction like Reactalytics allows you to switch providers on a dime if you decide. The goal of this library is to simplify tracking to a common interface, where events can be sent to as many providers as you want, in unison.
 
 This is the core library, which all client libraries depend on to fire off events.

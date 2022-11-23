@@ -1,5 +1,7 @@
 # `@reactalytics/segment-client`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/segment-client)](https://www.npmjs.com/package/@reactalytics/segment-client)
+
 This is the analytics client that can be used in conjunction with `@reactalytics/core` to send tracking and page view events to [Segment](https://segment.com/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).

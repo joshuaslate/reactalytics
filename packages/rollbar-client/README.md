@@ -1,5 +1,7 @@
 # `@reactalytics/rollbar-client`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/rollbar-client)](https://www.npmjs.com/package/@reactalytics/rollbar-client)
+
 This is the error client that can be used in conjunction with `@reactalytics/core` to send error events to [Rollbar](https://rollbar.com/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).

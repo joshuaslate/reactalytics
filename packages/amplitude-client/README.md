@@ -1,5 +1,7 @@
 # `@reactalytics/amplitude-client`
 
+[![npm info](https://img.shields.io/npm/dm/@reactalytics/amplitude-client)](https://www.npmjs.com/package/@reactalytics/amplitude-client)
+
 This is the analytics client that can be used in conjunction with `@reactalytics/core` to send tracking and page view events to [Amplitude](https://amplitude.com/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).
