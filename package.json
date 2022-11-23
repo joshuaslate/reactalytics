@@ -4,6 +4,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "license": "MIT",
   "repository": "https://github.com/joshuaslate/reactalytics",
   "devDependencies": {
     "@testing-library/react": "^13.4.0",
