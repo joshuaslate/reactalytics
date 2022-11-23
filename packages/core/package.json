@@ -1,0 +1,39 @@
+{
+  "name": "@reactalytics/core",
+  "version": "0.0.0",
+  "description": "The core package responsible for running configured analytics client commands.",
+  "keywords": [
+    "analytics",
+    "react"
+  ],
+  "author": "Joshua Slate <hello@joshuaslate.com>",
+  "repository": "https://github.com/joshuaslate/reactalytics",
+  "homepage": "https://github.com/joshuaslate/reactalytics",
+  "license": "MIT",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

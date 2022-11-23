@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":autodetectPinVersions",
+    ":dependencyDashboard",
+    ":ignoreModulesAndTests",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimit4",
+    ":semanticPrefixFixDepsChoreOthers",
+    "group:allNonMajor",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ]
+}

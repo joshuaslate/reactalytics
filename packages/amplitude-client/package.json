@@ -1,0 +1,38 @@
+{
+  "name": "@reactalytics/amplitude-client",
+  "version": "0.0.0",
+  "description": "A @reactalytics client for sending events to Amplitude",
+  "keywords": [
+    "amplitude",
+    "react"
+  ],
+  "author": "Joshua Slate <hello@joshuaslate.com>",
+  "repository": "https://github.com/joshuaslate/reactalytics",
+  "homepage": "https://github.com/joshuaslate/reactalytics",
+  "license": "MIT",
+  "main": "lib/amplitude-client.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@reactalytics/core": "*"
+  },
+  "devDependencies": {
+    "@amplitude/analytics-browser": "^1.6.3"
+  },
+  "peerDependencies": {
+    "@amplitude/analytics-browser": "1.6.x"
+  }
+}

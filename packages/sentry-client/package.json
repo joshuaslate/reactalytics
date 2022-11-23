@@ -1,0 +1,38 @@
+{
+  "name": "@reactalytics/sentry-client",
+  "version": "0.0.0",
+  "description": "A @reactalytics client for sending error events to Sentry",
+  "keywords": [
+    "sentry",
+    "react"
+  ],
+  "author": "Joshua Slate <hello@joshuaslate.com>",
+  "repository": "https://github.com/joshuaslate/reactalytics",
+  "homepage": "https://github.com/joshuaslate/reactalytics",
+  "license": "MIT",
+  "main": "lib/sentry-client.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "clean": "rm -rf lib",
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@reactalytics/core": "*"
+  },
+  "devDependencies": {
+    "@sentry/react": "^7.20.1"
+  },
+  "peerDependencies": {
+    "@sentry/react": "7"
+  }
+}

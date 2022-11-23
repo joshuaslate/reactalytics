@@ -1,0 +1,15 @@
+# Modules
+node_modules/
+
+# Debug
+lerna-debug.log
+npm-debug.log
+
+# IDE
+.idea
+
+# Built files
+packages/*/lib
+
+# Coverage
+coverage/
