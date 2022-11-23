@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/sentry-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A @reactalytics client for sending error events to Sentry",
   "keywords": [
     "sentry",

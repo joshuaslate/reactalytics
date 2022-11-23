@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/amplitude-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A @reactalytics client for sending events to Amplitude",
   "keywords": [
     "amplitude",

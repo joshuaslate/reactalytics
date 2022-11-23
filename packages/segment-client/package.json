@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/segment-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A @reactalytics client for sending events to Segment",
   "keywords": [
     "segment",
