@@ -32,7 +32,11 @@ export class DebugErrorClient extends ErrorClient {
     console.log('identified user', id, otherInfo);
   }
 
-  trackError<T = []>(error: string, properties: T, level: ErrorLogLevel): void {
+  trackError<T = []>(
+    error: string,
+    properties: T,
+    level: ErrorLogLevel = 'error',
+  ): void {
     const args = [`error:${level}`, error, properties];
 
     switch (level) {
