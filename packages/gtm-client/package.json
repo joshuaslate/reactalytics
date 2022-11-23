@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/gtm-client",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A @reactalytics client for sending events to Google Tag Manager",
   "keywords": [
     "gtm",
@@ -30,7 +30,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@reactalytics/core": "*"
+    "@reactalytics/core": "^0.0.1"
   },
   "peerDependencies": {
     "react": "18",

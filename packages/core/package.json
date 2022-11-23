@@ -1,6 +1,6 @@
 {
   "name": "@reactalytics/core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The core package responsible for running configured analytics client commands.",
   "keywords": [
     "analytics",
