@@ -9,19 +9,21 @@ declare global {
 }
 
 export interface GTMClientOptions {
+  scriptSource?: string;
   scriptId?: string;
   addScriptToDOM?: boolean;
 }
 
 const addAnalyticsScript = (
   propertyId: string,
+  scriptSource: string,
   scriptId: string = `ga-${new Date().valueOf()}`,
 ): Node => {
   const script = document.createElement('script');
   script.id = scriptId;
   script.type = 'text/javascript';
   script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${propertyId}`;
+  script.src = `${scriptSource}?id=${propertyId}`;
 
   document.head.insertBefore(script, document.head.firstChild);
 
@@ -30,22 +32,28 @@ const addAnalyticsScript = (
   return script;
 };
 
+const DEFAULT_OPTIONS: GTMClientOptions = {
+  scriptSource: 'https://www.googletagmanager.com/gtag/js',
+  scriptId: 'ga-gtag',
+  addScriptToDOM: typeof window !== 'undefined',
+};
+
 export const useGTMAnalyticsScript = (
   propertyId: string,
+  providedScriptSource?: string,
   providedScriptId?: string,
 ) => {
   useEffect(() => {
-    const scriptNode = addAnalyticsScript(propertyId, providedScriptId);
+    const scriptNode = addAnalyticsScript(
+      propertyId,
+      providedScriptSource || DEFAULT_OPTIONS.scriptSource,
+      providedScriptId,
+    );
 
     return () => {
       window.document.removeChild(scriptNode);
     };
-  }, [propertyId, providedScriptId]);
-};
-
-const DEFAULT_OPTIONS: GTMClientOptions = {
-  scriptId: 'ga-gtag',
-  addScriptToDOM: typeof window !== 'undefined',
+  }, [propertyId, providedScriptSource, providedScriptId]);
 };
 
 export class GTMClient extends AnalyticsClient {
@@ -63,7 +71,11 @@ export class GTMClient extends AnalyticsClient {
     super();
 
     if (options.addScriptToDOM && !document.getElementById(options.scriptId)) {
-      addAnalyticsScript(propertyId, options.scriptId);
+      addAnalyticsScript(
+        propertyId,
+        options.scriptSource || DEFAULT_OPTIONS.scriptSource,
+        options.scriptId,
+      );
     }
 
     this.propertyId = propertyId;

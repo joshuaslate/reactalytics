@@ -1,15 +1,18 @@
-# `@reactalytics/gtm-client`
+# `@reactalytics/segment-client`
 
-This is the analytics client that can be used in conjunction with `@reactalytics/core` to send tracking and page view events to [Google Tag Manager/Google Analytics](https://tagmanager.google.com/).
+This is the analytics client that can be used in conjunction with `@reactalytics/core` to send tracking and page view events to [Segment](https://segment.com/).
 
 For more general documentation on how to send events, subscribe/unsubscribe providers, and more, review the [root-level README](../../README.md).
 
-GTMClient is configured as an analytics client, so the API for events that will be sent to Google Tag Manager/Google Analytics is limited to:
+> `@reactalytics/segment-client` works with `@segment/analytics-next`, which is part of Segment's Analytics 2.0 initiative. This will not work with analytics.js v1 implementations.
+
+Segment is configured as an analytics client, so the API for events that will be sent to Segment is limited to:
 
 ```ts
-import React from 'react';
+import { SegmentClientPageParams } from '@reactalytics/segment-client';
+import { Traits } from '@segment/analytics-next';
 
-identifyUser<U extends Object = undefined>(
+identifyUser<U = Traits>(
     id: string,
     otherInfo?: U,
     // If an explicit list of clients is not passed in, user identity will be sent to all registered clients
@@ -17,7 +20,8 @@ identifyUser<U extends Object = undefined>(
 ): void;
 
 // page is used to track page views
-page<T extends Object | undefined>(
+// Segment recommends including an object with the key `category` in the `properties` object.
+page<T = SegmentClientPageParams>(
     page: string,
     properties?: T,
     // If an explicit list of clients is not passed in, page view event will be sent to all registered clients
@@ -47,13 +51,13 @@ getLinkClickEventHandler<T extends Object | undefined>(
 
 ### Install
 ```bash
-npm install --save @reactalytics/core @reactalytics/gtm-client
+npm install --save @reactalytics/core @reactalytics/segment-client
 ```
 
 or
 
 ```bash
-yarn add @reactalytics/core @reactalytics/gtm-client
+yarn add @reactalytics/core @reactalytics/segment-client
 ```
 
 `index.tsx`
@@ -61,12 +65,28 @@ yarn add @reactalytics/core @reactalytics/gtm-client
 ```tsx
 import React from 'react';
 import { ReactalyticsProvider } from '@reactalytics/core';
-import { GTMClient } from '@reactalytics/gtm-client';
+import { SegmentClient, Options } from '@reactalytics/segment-client';
+import { AnalyticsBrowser } from '@segment/analytics-next';
 import HomePage from './home-page';
+import { uuid4 } from '@sentry/utils';
 
-const gtmClient = new GTMClient(process.env.GTM_PROPERTY_ID);
+const segment = new AnalyticsBrowser();
 
-const clients = [gtmClient];
+// load can only be called once, and it can happen after user data has loaded and identifyUser() has been called
+// if you don't want to log anonymous user data
+segment.load({ writeKey: process.env.SEGMENT_WRITE_KEY });
+
+// options is an optional parameter that will be passed to segment client commands (track, page, identify)
+const options: Options = {
+    integrations: [],
+    anonymousId: uuid4(),
+    timestamp: new Date()
+    // ...
+};
+
+const segmentClient = new SegmentClient(segment, options);
+
+const clients = [segmentClient];
 
 const App: React.FC = () => (
     <ReactalyticsProvider initialClients={clients}>
@@ -94,7 +114,7 @@ const HomePage: React.FC = () => {
     }, [user?.id, identifyUser]);
     
     React.useEffect(() => {
-        page('Home Page', { locale: 'en-US' });
+        page('Home Page', { category: 'public_site', locale: 'en-US' });
     }, [page]);
     
     return (
@@ -109,33 +129,4 @@ const HomePage: React.FC = () => {
 }
 
 export default HomePage;
-```
-
-### Injecting GTM Script
-The Google Tag Manager Script needs to be present on the page in order for `@reactalytics/gtm-client` to function.
-
-There are three methods for accomplishing that:
-
-1. You can manually add the script include in the `<head />` tag, as in the [official docs from Google](https://developers.google.com/tag-platform/tag-manager/web).
-2. You can create the `GTMClient` with the default parameters and the script will be prepended to the `<head />` tag for you, i.e., `new GTMClient(propertyId)`.
-3. You can use the `useGTMAnalyticsScript(propertyId)` hook provided by this library.
-
-> Note: if using Next.js or another SSR solution, you will need to use option #1 or #3.
-
-For either option 1. or 2., you will want to instantiate your `GTMClient` with custom options to disable prepending the script:
-
-```tsx
-import { GTMClient } from '@reactalytics/gtm-client';
-
-const gtmClient = new GTMClient(process.env.GTM_PROPERTY_ID, { addScriptToDOM: false });
-```
-
-### Client Options
-
-```ts
-interface GTMClientOptions {
-    scriptSource?: string; // default: "https://www.googletagmanager.com/gtag/js"
-    scriptId?: string; // default: "ga-gtag"
-    addScriptToDOM?: boolean; // default: true (if window is defined)
-}
 ```

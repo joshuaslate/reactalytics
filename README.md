@@ -60,6 +60,7 @@ You will need to set up the appropriate clients for your application. You can `n
 #### Analytics
 - [`@reactalytics/gtm-client`](/packages/gtm-client) is the client for Google Tag Manager/Google Analytics
 - [`@reactalytics/amplitude-client`](/packages/amplitude-client) is the client for Amplitude
+- [`@reactalytics/segment-client`](/packages/segment-client) is the client for Segment (Analytics 2.0/Analytics Next version)
 
 #### Error
 - [`@reactalytics/rollbar-client`](/packages/rollbar-client) is the client for Rollbar
