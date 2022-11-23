@@ -13,3 +13,6 @@ packages/*/lib
 
 # Coverage
 coverage/
+
+# ENV files
+packages/*/.env

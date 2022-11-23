@@ -17,17 +17,24 @@ export class SegmentClient extends AnalyticsClient {
     this.options = options;
   }
 
-  identifyUser(id: string, otherInfo?: Traits): void {
+  identifyUser<U extends object | undefined = Traits>(
+    id: string,
+    otherInfo?: U,
+  ): void {
     this.segmentClient.identify(id, otherInfo, this.options || {});
   }
 
-  page(page: string, properties: SegmentClientPageParams): void {
-    const { category = '', ...rest } = properties || {};
+  page<T extends object | undefined = SegmentClientPageParams>(
+    page: string,
+    properties: T,
+  ): void {
+    const { category = '', ...rest } = (properties ||
+      {}) as SegmentClientPageParams;
 
     this.segmentClient.page(category, page, rest, this.options || {});
   }
 
-  sendEvent<T extends Object | undefined>(event: string, properties: T): void {
+  sendEvent<T extends object | undefined>(event: string, properties: T): void {
     this.segmentClient.track(event, properties, this.options || {});
   }
 }

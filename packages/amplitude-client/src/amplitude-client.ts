@@ -61,10 +61,9 @@ export class AmplitudeClient extends AnalyticsClient {
     this.options = options;
   }
 
-  identifyUser<U = Record<string, ValidPropertyType>>(
-    id: string,
-    otherInfo?: U,
-  ): void {
+  identifyUser<
+    U extends object | undefined = Record<string, ValidPropertyType>,
+  >(id: string, otherInfo?: U): void {
     if (id) {
       this.amplitudeClient.setUserId(id);
     }
@@ -80,7 +79,7 @@ export class AmplitudeClient extends AnalyticsClient {
     }
   }
 
-  page<T extends Object | undefined>(page: string, properties: T): void {
+  page<T extends object | undefined>(page: string, properties: T): void {
     // mimic the @amplitude/plugin-page-view-tracking-browser library
     // https://github.com/amplitude/Amplitude-TypeScript/blob/main/packages/plugin-page-view-tracking-browser/src/page-view-tracking.ts#L108
     this.amplitudeClient.track('Page View', {
@@ -89,7 +88,7 @@ export class AmplitudeClient extends AnalyticsClient {
     });
   }
 
-  sendEvent<T extends Object | undefined>(event: string, properties: T): void {
+  sendEvent<T extends object | undefined>(event: string, properties: T): void {
     this.amplitudeClient.track(event, properties);
   }
 }

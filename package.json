@@ -20,7 +20,7 @@
   "scripts": {
     "clean": "lerna run clean",
     "build": "yarn clean && lerna run build",
-    "pub": "yarn build && lerna publish",
+    "pub": "yarn build && lerna publish --no-private",
     "test": "jest"
   }
 }

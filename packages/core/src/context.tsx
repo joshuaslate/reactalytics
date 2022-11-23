@@ -10,7 +10,7 @@ import { ErrorClient, ErrorLogLevel } from './error-client';
 
 interface ReactalyticsContextShape {
   // identifyUser is used to associate events, page views, and errors with an individual user
-  identifyUser<U extends Object = undefined>(
+  identifyUser<U extends object | undefined>(
     id: string,
     otherInfo?: U,
     // If an explicit list of clients is not passed in, user identity will be sent to all registered clients
@@ -18,7 +18,7 @@ interface ReactalyticsContextShape {
   ): void;
 
   // page is used to track page views
-  page<T extends Object | undefined>(
+  page<T extends object | undefined>(
     page: string,
     properties?: T,
     // If an explicit list of clients is not passed in, page view event will be sent to all registered clients
@@ -26,7 +26,7 @@ interface ReactalyticsContextShape {
   ): void;
 
   // sendEvent is used to track individual events ("Clicked CTA", "Submitted Form", etc.)
-  sendEvent<T extends Object | undefined>(
+  sendEvent<T extends object | undefined>(
     event: string,
     properties?: T,
     // If an explicit list of clients is not passed in, event will be sent to all registered clients
@@ -36,15 +36,15 @@ interface ReactalyticsContextShape {
   // getLinkClickEventHandler is a wrapper for "sendEvent" that is helpful for tracking link clicks that redirect the user
   // to another page. The redirection can cause the events not to be sent, so we artificially add a little delay to the redirection
   // in order to give time for the event to be sent
-  getLinkClickEventHandler<T extends Object | undefined>(
+  getLinkClickEventHandler<T extends object | undefined>(
     event: string,
     properties?: T,
     redirectDelay?: number,
     clients?: Array<string>,
   ): (event: React.MouseEvent<HTMLAnchorElement>) => void;
 
-  // trackError is used to send error events to error tracking clients (Rollbar, Sentry, etc.)
-  trackError<T extends Object | Error | undefined = undefined>(
+  // trackError is used to send error events to error tracking clients
+  trackError<T extends object | Error | string | undefined = undefined>(
     message: string,
     errorInfo?: T | Array<T>,
     level?: ErrorLogLevel,
@@ -110,7 +110,7 @@ export const ReactalyticsProvider: React.FC<React.PropsWithChildren<Props>> = ({
   );
 
   const identifyUser = useCallback(
-    <U extends Object = undefined>(
+    <U extends object | undefined = undefined>(
       id: string,
       otherInfo?: U,
       // If an explicit list of clients is not passed in, user identity will be sent to all registered clients
@@ -130,7 +130,7 @@ export const ReactalyticsProvider: React.FC<React.PropsWithChildren<Props>> = ({
   );
 
   const sendEvent = useCallback(
-    <T extends Object | undefined>(
+    <T extends object | undefined>(
       event: string,
       properties?: T,
       // If an explicit list of clients is not passed in, event will be sent to all registered clients
@@ -150,7 +150,7 @@ export const ReactalyticsProvider: React.FC<React.PropsWithChildren<Props>> = ({
   );
 
   const page = useCallback(
-    <T extends Object | undefined>(
+    <T extends object | undefined>(
       page: string,
       properties?: T,
       // If an explicit list of clients is not passed in, page view event will be sent to all registered clients
@@ -170,7 +170,7 @@ export const ReactalyticsProvider: React.FC<React.PropsWithChildren<Props>> = ({
   );
 
   const trackError = useCallback(
-    <T extends Object | Error | undefined = undefined>(
+    <T extends object | Error | string | undefined = undefined>(
       message: string,
       errorInfo?: T | Array<T>,
       level?: ErrorLogLevel,
@@ -196,7 +196,7 @@ export const ReactalyticsProvider: React.FC<React.PropsWithChildren<Props>> = ({
   // Link clicks require a bit of time to ensure the analytics events are sent
   // before navigation changes
   const getLinkClickEventHandler = useCallback(
-    <T extends Object | undefined>(
+    <T extends object | undefined>(
         event: string,
         properties?: T,
         redirectDelay = 200,

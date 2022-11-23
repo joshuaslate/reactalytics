@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@reactalytics/core": "*",
-    "@sentry/react": "^7.21.0"
+    "@sentry/react": "^7.21.1"
   },
   "peerDependencies": {
     "@reactalytics/core": "*",

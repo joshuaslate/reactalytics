@@ -86,11 +86,11 @@ export class GTMClient extends AnalyticsClient {
     this.gtag('config', propertyId, { send_page_view: false });
   }
 
-  identifyUser<U extends Object = undefined>(id: string, otherInfo?: U): void {
+  identifyUser<U extends object | undefined>(id: string, otherInfo?: U): void {
     this.gtag('config', this.propertyId, { user_id: id, ...otherInfo });
   }
 
-  page<T extends Object>(page: string, properties: T): void {
+  page<T extends object | undefined>(page: string, properties: T): void {
     this.gtag('config', this.propertyId, {
       page_title: page,
       send_page_view: true,
@@ -98,7 +98,7 @@ export class GTMClient extends AnalyticsClient {
     });
   }
 
-  sendEvent<T extends Object | undefined>(event: string, properties: T): void {
+  sendEvent<T extends object | undefined>(event: string, properties: T): void {
     this.gtag('event', event, properties);
   }
 }

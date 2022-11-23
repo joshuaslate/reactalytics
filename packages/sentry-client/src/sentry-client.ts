@@ -41,7 +41,10 @@ export class SentryClient extends ErrorClient {
     this.providedSentryHub = sentryHub;
   }
 
-  identifyUser<U = User>(id: string, otherInfo?: U): void {
+  identifyUser<U extends object | undefined = User>(
+    id: string,
+    otherInfo?: U,
+  ): void {
     const hub = this.getHub();
 
     hub.setUser({
@@ -50,7 +53,7 @@ export class SentryClient extends ErrorClient {
     });
   }
 
-  trackError<T = Error>(
+  trackError<T extends object | Error | string | undefined = Error>(
     message: string,
     errorInfo?: Array<T>,
     level?: ErrorLogLevel,

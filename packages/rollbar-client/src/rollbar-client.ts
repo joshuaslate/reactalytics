@@ -11,15 +11,18 @@ export class RollbarClient extends ErrorClient {
     this.rollbarInstance = rollbarInstance;
   }
 
-  identifyUser<U = Payload['person']>(id: string, otherInfo?: U): void {
+  identifyUser<U extends object | undefined = Payload['person']>(
+    id: string,
+    otherInfo?: U,
+  ): void {
     this.rollbarInstance.configure({
       payload: { person: { id, ...otherInfo } },
     });
   }
 
-  trackError(
+  trackError<T extends object | Error | string | undefined = LogArgument>(
     message: string,
-    errorInfo?: Array<LogArgument>,
+    errorInfo?: Array<T>,
     level?: ErrorLogLevel,
   ): void {
     switch (level) {
