@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "lerna run clean",
     "build": "yarn clean && lerna run build",
-    "publish": "yarn build && lerna publish",
+    "pub": "yarn build && lerna publish",
     "test": "jest"
   }
 }
