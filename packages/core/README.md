@@ -4,7 +4,7 @@ Abstraction for handling multiple analytics and error tracking clients in a Reac
 
 This is the core library, which all client libraries depend on to fire off events.
 
-View documentation at the root of the [repository](https://github.com/joshuaslate/reactalytics);
+View documentation at the root of the [repository](https://github.com/joshuaslate/reactalytics).
 
 ## Quick Usage Example
 
