@@ -68,7 +68,7 @@ interface ReactalyticsContextShape {
 
 const noop = () => {};
 
-const ReactalyticsContext = createContext<ReactalyticsContextShape>({
+export const ReactalyticsContext = createContext<ReactalyticsContextShape>({
   registeredAnalyticsClients: [],
   registeredErrorClients: [],
   getLinkClickEventHandler: () => noop,
