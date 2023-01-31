@@ -31,7 +31,7 @@
     "@reactalytics/core": "^0.0.4"
   },
   "peerDependencies": {
-    "@amplitude/analytics-browser": "1.6.x",
+    "@amplitude/analytics-browser": "1.6.x || 1.7.x",
     "@reactalytics/core": "*"
   }
 }
