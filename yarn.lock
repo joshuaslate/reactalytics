@@ -3,14 +3,14 @@
 
 
 "@amplitude/analytics-browser@^1.6.3":
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-1.10.3.tgz#0abfa2eb424c00fb3ecfdf448509ec89587914a3"
-  integrity sha512-u9xnHVLMtoWawZssZDC1wYR7GjuXF9DWL09fCdxf5j0Gp9CtRurzt+kUx9KC8IzrBmNSYZ7jG8xhwUWCbIFodg==
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-1.10.4.tgz#5e1fad78acfc3705bcffd007253614468d2b039f"
+  integrity sha512-8Wx9dvCVyGnpzWJZESLiC7ICeYTRqh/I8eKArGTMJVe+vYwwsa4YaRA+DOclCCUnjgA7HfQKDbXw5iLEbcGzpA==
   dependencies:
     "@amplitude/analytics-client-common" "^0.7.0"
     "@amplitude/analytics-core" "^0.13.3"
     "@amplitude/analytics-types" "^0.20.0"
-    "@amplitude/plugin-page-view-tracking-browser" "^0.8.0"
+    "@amplitude/plugin-page-view-tracking-browser" "^0.8.1"
     "@amplitude/plugin-web-attribution-browser" "^0.7.0"
     "@amplitude/ua-parser-js" "^0.7.31"
     tslib "^2.4.1"
@@ -45,10 +45,10 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-types/-/analytics-types-0.20.0.tgz#9efc83b758fdbf3929f0b00a8ba3e5a7262e1c7a"
   integrity sha512-OYoUrf7QUl5sL4mqcQJBu+0GuSar7ga5prJv0HDtPT4LGu7Adv8S3AWljGiEJuTS/YaOMzvTe2qyKZbwyiNrMw==
 
-"@amplitude/plugin-page-view-tracking-browser@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-0.8.0.tgz#e3bd74ee699276377bd20992fde0d0b10bce033e"
-  integrity sha512-Bun7aGo7woxsnupDEY1YugLQyAXDRtFhQsXnJKKCIkyeeRCq4qsuaAz0wI8w1QV+3IhaAf0lBuSqSuBIhPFDLQ==
+"@amplitude/plugin-page-view-tracking-browser@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-0.8.1.tgz#6b6a4a346fb9efa1483a360cdc3a4c9e628a3c08"
+  integrity sha512-R1EyeckxikgJjH/YIoUn3nVyvB6PA8vcRMbk2T5Uzpe4SEv3IoPJ4z5tKfPUzBfKaibF7ectkzpfEHhC3hTJ3w==
   dependencies:
     "@amplitude/analytics-client-common" "^0.7.0"
     "@amplitude/analytics-types" "^0.20.0"
@@ -1175,15 +1175,15 @@
     tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.51.7"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.51.7.tgz#f0d3c9b06b2ff5e46802a0ec8e9f676b41bd3658"
-  integrity sha512-WXrgQPkB4MBa4Op4X1SKZL/WEBX3vM04jChHClXZK3QcMAezy4A0vblcHK9vtm8RGOuiickVuemU7ZN3/iaGPA==
+  version "1.52.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.52.0.tgz#998cb4a6e3a268c26ab0c8c092a48507de367e17"
+  integrity sha512-g78N32oK0dlzskvK36X4Ep1snQo7lzyHRE5R4gI1dVOq3BGd+i4Nv2gpzDCymSxBWs8dtVHaZtBLdPeuLCuYIA==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
     "@segment/analytics-core" "1.2.5"
     "@segment/analytics.js-video-plugins" "^0.2.1"
     "@segment/facade" "^3.4.9"
-    "@segment/tsub" "1.0.1"
+    "@segment/tsub" "^2.0.0"
     dset "^3.1.2"
     js-cookie "3.0.1"
     node-fetch "^2.6.7"
@@ -1220,10 +1220,10 @@
   resolved "https://registry.yarnpkg.com/@segment/isodate/-/isodate-1.0.3.tgz#f44e8202d5edd277ce822785239474b2c9411d4a"
   integrity sha512-BtanDuvJqnACFkeeYje7pWULVv8RgZaqKHWwGFnL/g/TH/CcZjkIVTfGDp/MAxmilYHUkrX70SqwnYSTNEaN7A==
 
-"@segment/tsub@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@segment/tsub/-/tsub-1.0.1.tgz#4d7fad9eb84b354eec559020da7408fac3046b33"
-  integrity sha512-rUpvlj/rRfOolk5rjwyrsbl0qzGLsaYgFNEiOSrwrWDryDPq1ZGdo+3Eb+E8+EC0yZOAO4F1DjJfLtaSifpx7w==
+"@segment/tsub@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@segment/tsub/-/tsub-2.0.0.tgz#321e781a38fcd3720853f2da7574b523b447a296"
+  integrity sha512-NzkBK8GwPsyQ74AceLjENbUoaFrObnzEKOX4ko2wZDuIyK+DnDm3B//8xZYI2LCKt+wUD55l6ygfjCoVs8RMWw==
   dependencies:
     "@stdlib/math-base-special-ldexp" "^0.0.5"
     dlv "^1.1.3"
@@ -7616,9 +7616,9 @@ typedarray@^0.0.6:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@^5.0.0:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.0.4.tgz#b217fd20119bd61a94d4011274e0ab369058da3b"
-  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.3.tgz#8d84219244a6b40b6fb2b33cc1c062f715b9e826"
+  integrity sha512-XH627E9vkeqhlZFQuL+UsyAXEnibT0kWR2FWONlr4sTjvxyJYnyefgrkyECLzM5NenmKzRAy2rR/OlYLA1HkZw==
 
 uglify-js@^3.1.4:
   version "3.17.4"
