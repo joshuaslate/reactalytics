@@ -27,11 +27,11 @@
     "access": "public"
   },
   "devDependencies": {
-    "@amplitude/analytics-browser": "^1.6.3",
+    "@amplitude/analytics-browser": "^2.0.0",
     "@reactalytics/core": "^0.0.4"
   },
   "peerDependencies": {
-    "@amplitude/analytics-browser": "1.6.x || 1.7.x || 1.8.x || 1.9.x || 1.10.x",
+    "@amplitude/analytics-browser": "1.6.x || 1.7.x || 1.8.x || 1.9.x || 1.10.x || 2.1.x",
     "@reactalytics/core": "*"
   }
 }
