@@ -1193,9 +1193,9 @@
     tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.53.3"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.53.3.tgz#d6ae5c96648d309efae51a02d34136b15ed06cd5"
-  integrity sha512-aAkVDm5HUaHtNrpQR0uXoGDkMKHbBK2ut+Quq0QGN4JNIpNX4j77vhCIZKkzNEResxH94d45Hm3uEFhQ0ycCBQ==
+  version "1.53.4"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.53.4.tgz#5628b8018e4de08e2fd504e0d8e7fa93a8ce12a9"
+  integrity sha512-lBI5oyU7h0BuAWrO8KxAtJatXHD+sLLUz6MVfXrOqzWwdeWZ33IOnERnKoLrr3OZXVBHEoEjAcTy1dd4XZsaJw==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
     "@segment/analytics-core" "1.3.0"
@@ -2322,9 +2322,9 @@
   integrity sha512-5j/lXt7unfPOUlrKC34HIaedONleyLtwkKggiD/0uuMfT8gg2EOpg0dz4lCD15Ga7muC+1WzJZAjIB9simWd6Q==
 
 "@types/node@^18.11.9":
-  version "18.17.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.7.tgz#8be4a95467c4f2a94cae65f30ee1cf98760525cb"
-  integrity sha512-WJj/p/cIg6zUsxv1n2leZHpvn8hr9TYuLQxAZxZcK/7+5t5ukmJGelOLGOy3L1MLhAO/sapTJGd1V7kvoIuzUg==
+  version "18.17.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.17.8.tgz#fd69eb04c25d50374245e8bd69ba29dd0eb7ff5e"
+  integrity sha512-Av/7MqX/iNKwT9Tr60V85NqMnsmh8ilfJoBlIVibkXfitk9Q22D9Y5mSpm+FvG5DET7EbVfB40bOiLzKgYFgPw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
