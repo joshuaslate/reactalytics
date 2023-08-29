@@ -3,15 +3,15 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.2.1.tgz#aa3bbde800b639028d0dc7d1c9f8ef10d32e9f7e"
-  integrity sha512-RrXXAnL2mbbkgyTUJ45azw3Q3938pH8ricGt0zImTHdeqYjhSvhyXRy3M/yn7V+99oeB0sibILRCy99YSUp0hw==
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.2.2.tgz#910d999c269ff325d26c3f9fdce20b8f71974b91"
+  integrity sha512-7H2lp6fu2umjmrOvBS3DeCkf7hEiM4+M9VYB9Dvn8QwlaeLhQrk/+TLyew12lmApOowI/C1f8TAupSIKB5MucQ==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.5"
     "@amplitude/analytics-core" "^2.0.4"
     "@amplitude/analytics-types" "^2.1.2"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.0.7"
-    "@amplitude/plugin-web-attribution-browser" "^2.0.7"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.0.8"
+    "@amplitude/plugin-web-attribution-browser" "^2.0.8"
     tslib "^2.4.1"
 
 "@amplitude/analytics-client-common@^2.0.5":
@@ -42,19 +42,19 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-types/-/analytics-types-2.1.2.tgz#7a2a7a22fba192639189bb03eda5dd8287487cf2"
   integrity sha512-ASKwH9g+5gglTHr7h7miK8J/ofIzuEtGRDCjnZAtRbE6+laoOfCLYPPJXMYz0k1x+rIhLO/6I6WWjT7zchmpyA==
 
-"@amplitude/plugin-page-view-tracking-browser@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.7.tgz#65265f1c92029cc1b7b3a16d90d722af233cfdae"
-  integrity sha512-hVRgI29W6dsBokteDUBm4GHR8mN6Z+qStieU7x3XtPBuF+jYDEIgyF76iiHmbcILSRMuKQswH5fE6hkARvGK7g==
+"@amplitude/plugin-page-view-tracking-browser@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.8.tgz#3083f90bd5f35b6125b68ac495bc91d19237a4ae"
+  integrity sha512-TwZuJZj5x1x98Dg8e/Papq9NmP5smKQiHg0/N7MY+qXELsM0zJ53TsXC0Eo2J9U8Ok6jfZSRoYCp/s7mQ2zDoA==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.5"
     "@amplitude/analytics-types" "^2.1.2"
     tslib "^2.4.1"
 
-"@amplitude/plugin-web-attribution-browser@^2.0.7":
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.7.tgz#fb8cc0b0b716cf358e220db33a7b3b08b638bd93"
-  integrity sha512-vfIIiWZgVKPck9i9/Pkih8Udx/eVK+P3UoBARCaV2uKUiA9WnJ/0uGm6/bkJeR1i9Kbp+MoVfSUPZXf7fBg5+A==
+"@amplitude/plugin-web-attribution-browser@^2.0.8":
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.8.tgz#44d89b8d77a4713c919dead38cff7228d2be3fc3"
+  integrity sha512-ZRk67ErKc+uNFKpgPEtdT+7kut3RkdiuZa52c3rX6OeUYpFpVlwWnH565AnpNh/clBPlqJPL7T90Dq0ku9QZtg==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.5"
     "@amplitude/analytics-core" "^2.0.4"
@@ -1181,9 +1181,9 @@
     tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.53.4"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.53.4.tgz#5628b8018e4de08e2fd504e0d8e7fa93a8ce12a9"
-  integrity sha512-lBI5oyU7h0BuAWrO8KxAtJatXHD+sLLUz6MVfXrOqzWwdeWZ33IOnERnKoLrr3OZXVBHEoEjAcTy1dd4XZsaJw==
+  version "1.54.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.54.0.tgz#79403a442684437b6aa1e8cf309529660029fb36"
+  integrity sha512-KJ1sZswWab0KkufhXHF+Gjscm/sZmHdLybvOASe9smRDhnyaqmDxZqCWJnwS8LVIhy7mG4DvPynpyj8TL2JLdQ==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
     "@segment/analytics-core" "1.3.0"
@@ -6579,9 +6579,9 @@ postcss-selector-parser@^6.0.10:
     util-deprecate "^1.0.2"
 
 prettier@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.2.tgz#78fcecd6d870551aa5547437cdae39d4701dca5b"
-  integrity sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.0.3.tgz#432a51f7ba422d1469096c0fdc28e235db8f9643"
+  integrity sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==
 
 pretty-format@29.4.3:
   version "29.4.3"
