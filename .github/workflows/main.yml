@@ -28,4 +28,4 @@ jobs:
       - name: Test
         run: yarn test
       - name: Upload Test Coverage
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v4
