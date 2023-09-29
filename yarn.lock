@@ -3,15 +3,15 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.3.1.tgz#a04f12332fad27eec3a9e8cb84c515df1f3ae10c"
-  integrity sha512-sDX6Nupw6SSsTfaCYrrIwRys4Ins/H7TzmJimEqM4bEoKmM9ONkKFAAF+E9sQz9XvMr5iBBqbmb5Sd+u3f7SRA==
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.3.2.tgz#551eb7f1b6d1bde6354deb4c261bb82eeab1934a"
+  integrity sha512-Zjk/PeCc0PZuzWlsGaf/i6qkkofqJvToh41tPhkOIFvLJlv/3cHtB2WXEod9vj20m+XcNoBATbcFAQgl2ubTeA==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.6"
     "@amplitude/analytics-core" "^2.0.5"
     "@amplitude/analytics-types" "^2.2.0"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.0.11"
-    "@amplitude/plugin-web-attribution-browser" "^2.0.11"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.0.12"
+    "@amplitude/plugin-web-attribution-browser" "^2.0.12"
     tslib "^2.4.1"
 
 "@amplitude/analytics-client-common@^2.0.6":
@@ -42,19 +42,19 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-types/-/analytics-types-2.2.0.tgz#2d44f748004e9442c7cfc10eaf4ace5532f066ed"
   integrity sha512-HThPlsX5KnxCorQnPVNQR8WZy0/PdgAzlT5n8bubjSmzPEWQgvn8bQzD48wYXoAkEZxlfYlaSnx7IxD5j3N1Dw==
 
-"@amplitude/plugin-page-view-tracking-browser@^2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.11.tgz#b93d38231f884312a9aab32ca54d03697aac536d"
-  integrity sha512-GZ5JpyZOX6Ejif+m9vE/H8XbB41OkPOLDzIudd52vVlZN/o5Pmovb5UyDW+C9osNP7mra7YeB28vrJwqN18IbQ==
+"@amplitude/plugin-page-view-tracking-browser@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.12.tgz#d6b2273282b5628cad4eae48d06943932c9824dd"
+  integrity sha512-0QJJZocqQ+MltQcI4BkshQJcUOM9mIOiud0BnDPcwAbUjlzGVG+xm4KuOA3bjfGGcSF7I6mpnOnG3nPkX5k47A==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.6"
     "@amplitude/analytics-types" "^2.2.0"
     tslib "^2.4.1"
 
-"@amplitude/plugin-web-attribution-browser@^2.0.11":
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.11.tgz#898055e4b8240aa0d44e99ae81464a93b0a629c8"
-  integrity sha512-5NyjGq6FaNCU2ZBuaViaqf3/x9JQOghA40gjNoGSpsogeZZbxdpZDDMWbE3Zq5+ruTGbwed6IqlrFkT3NUQyZw==
+"@amplitude/plugin-web-attribution-browser@^2.0.12":
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.12.tgz#2b1b138f33303385490ffcad79a4f76aba9820d0"
+  integrity sha512-Ii5lzsixf+2E9f+K2Knk3q/O9tYkoFDm0E9KfPhvkNM27mRLtJ1/YTfvmW4otaYrnPwcvl2Y5E9tzATVrmIelw==
   dependencies:
     "@amplitude/analytics-client-common" "^2.0.6"
     "@amplitude/analytics-core" "^2.0.5"
@@ -2308,9 +2308,9 @@
   integrity sha512-4LcJvuXQlv4lTHnxwyHQZ3uR9Zw2j7m1C9DfuwoTFQQP4Pmu04O6IfLYgMmHoOCt0nosItLLZAH+sOrRE0Bo8g==
 
 "@types/node@^18.11.9":
-  version "18.18.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.0.tgz#bd19d5133a6e5e2d0152ec079ac27c120e7f1763"
-  integrity sha512-3xA4X31gHT1F1l38ATDIL9GpRLdwVhnEFC8Uikv5ZLlXATwrCYyPq7ZWHxzxc3J/30SUiwiYT+bQe0/XvKlWbw==
+  version "18.18.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.18.1.tgz#80b22f3df719f15c9736207980e95f35d01ec1aa"
+  integrity sha512-3G42sxmm0fF2+Vtb9TJQpnjmP+uKlWvFa8KoEGquh4gqRmoUG/N0ufuhikw6HEsdG2G2oIKhog1GCTfz9v5NdQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.2"
@@ -2328,9 +2328,9 @@
   integrity sha512-FbtmBWCcSa2J4zL781Zf1p5YUBXQomPEcep9QZCfRfQgTxz3pJWiDFLebohZ9fFntX5ibzOkSsrJ0TEew8cAog==
 
 "@types/react-dom@^18.0.0", "@types/react-dom@^18.0.9":
-  version "18.2.7"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.7.tgz#67222a08c0a6ae0a0da33c3532348277c70abb63"
-  integrity sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==
+  version "18.2.8"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.2.8.tgz#338f1b0a646c9f10e0a97208c1d26b9f473dffd6"
+  integrity sha512-bAIvO5lN/U8sPGvs1Xm61rlRHHaq5rp5N3kp9C+NJ/Q41P8iqjkXSu0+/qu8POsjH9pNWb0OYabFez7taP7omw==
   dependencies:
     "@types/react" "*"
 
