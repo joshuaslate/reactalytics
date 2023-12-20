@@ -3,24 +3,24 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.3.7"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.3.7.tgz#e1a6d3038abb558e33c8ae91da5ede64baf385c7"
-  integrity sha512-dk9Q8/pSxM8zyzT5jmWNuDZPicKXK3JQu/1s6ztWD8lWN/vxSIYWaFAdaz60/AM7jkOwxdP8iANMxMyxPv06Rw==
+  version "2.3.8"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.3.8.tgz#d5ede6f4497efadbfc606bbcb2d0c889c5a7cb77"
+  integrity sha512-K+12aAVJPzAtWIi8Ok5Q5dvg7v7IF4G0cI8PW0COWo3uTyY103r45OcpgrpRVpVAr+41d1eiMo36jqOke89uPA==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.0.9"
-    "@amplitude/analytics-core" "^2.1.2"
+    "@amplitude/analytics-client-common" "^2.0.10"
+    "@amplitude/analytics-core" "^2.1.3"
     "@amplitude/analytics-types" "^2.3.1"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.0.17"
-    "@amplitude/plugin-web-attribution-browser" "^2.0.17"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.0.18"
+    "@amplitude/plugin-web-attribution-browser" "^2.0.18"
     tslib "^2.4.1"
 
-"@amplitude/analytics-client-common@^2.0.9":
-  version "2.0.9"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.0.9.tgz#f40d005eb52a15ad8a99a2222457a1206f229729"
-  integrity sha512-2CSUMY60Jemks/XVro8ikuHBebENzb+IxnUz4YPx5fmBPW7QW+ysmD+LgECeLhv9jWIQoDhuciscPLuRENKerA==
+"@amplitude/analytics-client-common@^2.0.10":
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.0.10.tgz#6cdb77312719096a7cb9497b417e8a95eef5076f"
+  integrity sha512-IaERGgBN3dmCGFbFd7SFTpTBguJIQzE/uDK44KEnLj0qw9wdoTxpLhoXQpqe5WKWsr46eONL9ROCJybHs4Efnw==
   dependencies:
     "@amplitude/analytics-connector" "^1.4.8"
-    "@amplitude/analytics-core" "^2.1.2"
+    "@amplitude/analytics-core" "^2.1.3"
     "@amplitude/analytics-types" "^2.3.1"
     tslib "^2.4.1"
 
@@ -29,10 +29,10 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-connector/-/analytics-connector-1.4.8.tgz#dd801303db2662bc51be7e0194eeb8bd72267c42"
   integrity sha512-dFW7c7Wb6Ng7vbmzwbaXZSpqfBx37ukamJV9ErFYYS8vGZK/Hkbt3M7fZHBI4WFU6CCwakr2ZXPme11uGPYWkQ==
 
-"@amplitude/analytics-core@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-core/-/analytics-core-2.1.2.tgz#d7015682e8d794e0c9cb2bdc20bc38b29c01a7be"
-  integrity sha512-vRkP2HHh43u7vilpUrP3Q8o/TMJ6U2B7nxPV9/aUS5V/im0Zigq4mPcn5uNY7FuTwsJM3zzRxK9J2WvfdG5bqA==
+"@amplitude/analytics-core@^2.1.3":
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-core/-/analytics-core-2.1.3.tgz#2a93c1d433d96628b05b83122584133a3285e027"
+  integrity sha512-WHXf9g33t63jYy4a/1uOpq/zHPMfEj5N2HHgJrg7Eu7v4w3kOWtPSMPBAllzFWxC5Ay5HeR9n0hqlJG0yffQWg==
   dependencies:
     "@amplitude/analytics-types" "^2.3.1"
     tslib "^2.4.1"
@@ -42,22 +42,22 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-types/-/analytics-types-2.3.1.tgz#a0ed8ab5304536c29d8f7f1ad7574eff1a4def7b"
   integrity sha512-yojBG20qvph0rpCJKb4i/FJa+otqLINEwv//hfzvjnCOcPPyS0YscI8oiRBM0rG7kZIDgaL9a6jPwkqK4ACmcw==
 
-"@amplitude/plugin-page-view-tracking-browser@^2.0.17":
-  version "2.0.17"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.17.tgz#c8744cec831c3b1aefe9b0f13698fe1768777000"
-  integrity sha512-AcpNehWJRPNFiyLDbji4ccZ0jD8640EL3XbauFE8IVSsp+a0a8YbGda/5uQrjmepDGC7nS8BIxxBDiIjbDD90g==
+"@amplitude/plugin-page-view-tracking-browser@^2.0.18":
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.0.18.tgz#5aa36b89acea503574246bbfd524ce4a7f2c85b8"
+  integrity sha512-s7PkGOgrx6U06/emzM8k+KRGDuyP9Z2L4OyGdeQwJcURJjiZDVQsmKlTZ5/SeGvxHYgq/4QJYUmMSmzByiGTCA==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.0.9"
+    "@amplitude/analytics-client-common" "^2.0.10"
     "@amplitude/analytics-types" "^2.3.1"
     tslib "^2.4.1"
 
-"@amplitude/plugin-web-attribution-browser@^2.0.17":
-  version "2.0.17"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.17.tgz#556e7ff2381d5d5f63c286f302a8c9f1a41ccd14"
-  integrity sha512-sdO3MY3QkHOumMfm6shDOFAdV7Kf5VDsuYnyCn4g3F68e3PiKhrSgpjiqLuB0I6PVNBtkFLjTPxafNdHYsGCZQ==
+"@amplitude/plugin-web-attribution-browser@^2.0.18":
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-web-attribution-browser/-/plugin-web-attribution-browser-2.0.18.tgz#7ef8213f6011bf6ca7d3bcacf17949b8ee4c605b"
+  integrity sha512-mPlXu0fEYCCXhT6WpNJoM0FYkp+HIEm7L+KBEa2IHd3GD3+mh2AVDkZmgXLl3LKb++HY8mCiqC5/NcJ2AzTNhA==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.0.9"
-    "@amplitude/analytics-core" "^2.1.2"
+    "@amplitude/analytics-client-common" "^2.0.10"
+    "@amplitude/analytics-core" "^2.1.3"
     "@amplitude/analytics-types" "^2.3.1"
     tslib "^2.4.1"
 
