@@ -1009,29 +1009,31 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@segment/analytics-core@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-core/-/analytics-core-1.4.0.tgz#327ee91a0b2435807d96d268a7c06d44cacad7ba"
-  integrity sha512-rLUv5Se0iDccykxY8bWUuoZT4gg8fNW00zMPqkJN+ONfj5/P1eaGQgygq2EHlR9j20a7tNtp5Y9bZ4rLzViIXQ==
+"@segment/analytics-core@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-core/-/analytics-core-1.4.1.tgz#af0e5ec31f3d1978a56dee4683af4c34b207effb"
+  integrity sha512-kV0Pf33HnthuBOVdYNani21kYyj118Fn+9757bxqoksiXoZlYvBsFq6giNdCsKcTIE1eAMqNDq3xE1VQ0cfsHA==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
-    "@segment/analytics-generic-utils" "1.1.0"
+    "@segment/analytics-generic-utils" "1.1.1"
     dset "^3.1.2"
     tslib "^2.4.1"
 
-"@segment/analytics-generic-utils@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-generic-utils/-/analytics-generic-utils-1.1.0.tgz#b3e4de81ec76e98ef94977a5b995af0a42760708"
-  integrity sha512-nOgmbfsKD0jFzH3df+PtjLq3qTspdcFpIy/F5ziho5qiE+QATM8wY9TpvCNBbcHr2f3OGzT6SgjJLFlmM5Yb+w==
+"@segment/analytics-generic-utils@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-generic-utils/-/analytics-generic-utils-1.1.1.tgz#8603a38cc6bce5b0b0d2edfd97518489551ae789"
+  integrity sha512-THTIzBPHnvu1HYJU3fARdJ3qIkukO3zDXsmDm+kAeUks5R9CBXOQ6rPChiASVzSmwAIIo5uFIXXnCraojlq/Gw==
+  dependencies:
+    tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.62.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.62.0.tgz#09c3abd1987fa4c445a2acb6689969a07ed0ef37"
-  integrity sha512-RuamvHQPVAkwO9/SSd/ioC/fT+4BaWvDlgkCKQi1DHXT4+5HG7bJROIUBgrHDmXEOVavnH7U97BIkZ1tgXEchw==
+  version "1.63.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.63.0.tgz#d206f665d933bd9078f3f6c16a3e18017a8615d1"
+  integrity sha512-6GCZXq2vNiZj/jnolT+Rsl51PZdlw2dNyFutfwnY+GjMZB+UkzaLbpwc20q+cMWj5FvhksIxrfG1F+aYZBf5lw==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
-    "@segment/analytics-core" "1.4.0"
-    "@segment/analytics-generic-utils" "1.1.0"
+    "@segment/analytics-core" "1.4.1"
+    "@segment/analytics-generic-utils" "1.1.1"
     "@segment/analytics.js-video-plugins" "^0.2.1"
     "@segment/facade" "^3.4.9"
     "@segment/tsub" "^2.0.0"
@@ -2222,9 +2224,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@^20.0.0":
-  version "20.10.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.6.tgz#a3ec84c22965802bf763da55b2394424f22bfbb5"
-  integrity sha512-Vac8H+NlRNNlAmDfGUP7b5h/KA+AtWIzuXy0E6OyP8f1tCLYAtPvKRRDJjAPqhpCb0t6U2j7/xqAuLEebW2kiw==
+  version "20.11.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.0.tgz#8e0b99e70c0c1ade1a86c4a282f7b7ef87c9552f"
+  integrity sha512-o9bjXmDNcF7GbM4CNQpmi+TutCgap/K3w1JyKgxAjqx41zp9qlIAVFi0IhCNsJcXolEqLWhbFbEeL0PvYm4pcQ==
   dependencies:
     undici-types "~5.26.4"
 
