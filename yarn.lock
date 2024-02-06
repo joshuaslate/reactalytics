@@ -1041,9 +1041,9 @@
     tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.63.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.63.0.tgz#d206f665d933bd9078f3f6c16a3e18017a8615d1"
-  integrity sha512-6GCZXq2vNiZj/jnolT+Rsl51PZdlw2dNyFutfwnY+GjMZB+UkzaLbpwc20q+cMWj5FvhksIxrfG1F+aYZBf5lw==
+  version "1.64.0"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.64.0.tgz#16ec391e097f0b1f6f13fca0d604689bed40c6ad"
+  integrity sha512-2qlyJ2Vnu6qjtuHZCzMg1ebMlbLXAKCzfHPMsZjSV+6BxpZe8pKjA0OVOKtKPTlKq1/aUw44MsKZ4N0JN+xhbw==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
     "@segment/analytics-core" "1.4.1"
