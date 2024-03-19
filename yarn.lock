@@ -2265,9 +2265,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@^20.0.0":
-  version "20.11.28"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.28.tgz#4fd5b2daff2e580c12316e457473d68f15ee6f66"
-  integrity sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==
+  version "20.11.30"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.30.tgz#9c33467fc23167a347e73834f788f4b9f399d66f"
+  integrity sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -6551,9 +6551,9 @@ rimraf@^4.4.1:
     glob "^9.2.0"
 
 rollbar@^2.25.2:
-  version "2.26.3"
-  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.26.3.tgz#a8b7fde0cc7590b1dc4f4f56ad773b8c72bfb5a8"
-  integrity sha512-Pf6PVH0zFi0dK4Yhj4MBEZX0QwIiHPZRgBHNHkhiujarhT5xunkJZ1T1QaJD0g8ML22f3zA7kKsly1tZZE7cdg==
+  version "2.26.4"
+  resolved "https://registry.yarnpkg.com/rollbar/-/rollbar-2.26.4.tgz#05e47d3b1f52ab6da9f88710ec66371a76cdc3c9"
+  integrity sha512-JKmrj6riYm9ZPJisgxljgH4uCsvjMHDHXrinDF7aAFaP+eoF51HomVPtLcDTYLsrJ568aKVNLUhedFajONBwSg==
   dependencies:
     async "~3.2.3"
     console-polyfill "0.3.0"
