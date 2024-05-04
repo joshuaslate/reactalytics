@@ -3,23 +3,23 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.7.0.tgz#2ee8e8f46ab335118665a7286875a52f0418d182"
-  integrity sha512-dUsNo7tIVIylfKIdhkLu6gViG9sOIxWDkiMnxhd/gf8faUK6J5JW+rtHnlyfifKMcH65yXvN1Hg6Q9B2BRs87A==
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.7.1.tgz#dd298680eb468b3270fa21da810618991818e9e3"
+  integrity sha512-ZwazSaFTbZCBQtmOxVAmitTwJ8uTShxClYBFUwEJjlDYN5XPvCVDPlLcbaidf9vb8LnuweXKgCycVY3naBplVQ==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.1.4"
-    "@amplitude/analytics-core" "^2.2.5"
+    "@amplitude/analytics-client-common" "^2.1.5"
+    "@amplitude/analytics-core" "^2.2.6"
     "@amplitude/analytics-types" "^2.5.0"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.2.7"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.2.8"
     tslib "^2.4.1"
 
-"@amplitude/analytics-client-common@^2.1.4":
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.1.4.tgz#be6210f6f666af49d86fc54fbe44d7421b2a9a6c"
-  integrity sha512-v1XhIkX23/qu49F8xqQMJSN9uBdV0JnoYV1M9TP3TERicYK5dHIPX2q5vFnnPwGl6D7fxm/80MgpA6hwVf4MrA==
+"@amplitude/analytics-client-common@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.1.5.tgz#787eb22a0e18e5563d57164447f9b1cb0d38813f"
+  integrity sha512-hOlTajAtuYLTGS+9hJlLZIsVKjAFCZUguRr5i9Q2MCncov0OJ8vSCBmI3byN4KPmpzwHybHCoUEGBZ6LzPpkiA==
   dependencies:
     "@amplitude/analytics-connector" "^1.4.8"
-    "@amplitude/analytics-core" "^2.2.5"
+    "@amplitude/analytics-core" "^2.2.6"
     "@amplitude/analytics-types" "^2.5.0"
     tslib "^2.4.1"
 
@@ -28,10 +28,10 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-connector/-/analytics-connector-1.4.8.tgz#dd801303db2662bc51be7e0194eeb8bd72267c42"
   integrity sha512-dFW7c7Wb6Ng7vbmzwbaXZSpqfBx37ukamJV9ErFYYS8vGZK/Hkbt3M7fZHBI4WFU6CCwakr2ZXPme11uGPYWkQ==
 
-"@amplitude/analytics-core@^2.2.5":
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-core/-/analytics-core-2.2.5.tgz#38648114daaa24217f4c271846d2e1d6fb5f9d0a"
-  integrity sha512-GNgZoY8515TODx+Pc+IN/g/71umwjsZcCkM0isMV8dZZfh0gCd2IBhg7GLeQoAVnFzQh0+vr4Z3Agdm2RytA6w==
+"@amplitude/analytics-core@^2.2.6":
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-core/-/analytics-core-2.2.6.tgz#98464d8dc4497313154e98a133599452ebccf53c"
+  integrity sha512-G7yHU4BMkuTrz+cycbhHjeWw/O0VNZ2i1Nm41Nhmqc247nagqHfBGZlhhAvvjF/0XCS5nyds5nFpi47ijEKlww==
   dependencies:
     "@amplitude/analytics-types" "^2.5.0"
     tslib "^2.4.1"
@@ -41,12 +41,12 @@
   resolved "https://registry.yarnpkg.com/@amplitude/analytics-types/-/analytics-types-2.5.0.tgz#d0d1ed66474b268909ccd89a06909e99f466bc14"
   integrity sha512-aY69WxUvVlaCU+9geShjTsAYdUTvegEXH9i4WK/97kNbNLl4/7qUuIPe4hNireDeKLuQA9SA3H7TKynuNomDxw==
 
-"@amplitude/plugin-page-view-tracking-browser@^2.2.7":
-  version "2.2.7"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.2.7.tgz#46b6e1ba6f206cfc90485faabd410d6b7d71a678"
-  integrity sha512-UF/Oyqxk29ZAW2VlguSL4oIPbtDqsO7GZsfnnPpBXGwB/CWegB7FtAreK4n8HHMDA/mgt+YS9I9ZJmfq26rIBA==
+"@amplitude/plugin-page-view-tracking-browser@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.2.8.tgz#1478a1832de447f3d926fb15581f78cbbfbd3327"
+  integrity sha512-IOXEEVTenSScmZ/dKD0PFDAfA2ffIKukfwjmm8fjzAUrlXtmGluGEig/Pz+1+W5Jcm6rklYup7KRCedo+Ikx9g==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.1.4"
+    "@amplitude/analytics-client-common" "^2.1.5"
     "@amplitude/analytics-types" "^2.5.0"
     tslib "^2.4.1"
 
@@ -2282,9 +2282,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*", "@types/node@^20.0.0":
-  version "20.12.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.7.tgz#04080362fa3dd6c5822061aa3124f5c152cff384"
-  integrity sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==
+  version "20.12.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.8.tgz#35897bf2bfe3469847ab04634636de09552e8256"
+  integrity sha512-NU0rJLJnshZWdE/097cdCBbyW1h4hEg0xpovcoAQYHl8dnEyp/NAOiE45pvc+Bd1Dt+2r94v2eGFpQJ4R7g+2w==
   dependencies:
     undici-types "~5.26.4"
 
