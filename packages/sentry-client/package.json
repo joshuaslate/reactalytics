@@ -28,10 +28,10 @@
   },
   "devDependencies": {
     "@reactalytics/core": "^0.0.4",
-    "@sentry/react": "^7.21.1"
+    "@sentry/react": "^8.0.0"
   },
   "peerDependencies": {
     "@reactalytics/core": "*",
-    "@sentry/react": "7"
+    "@sentry/react": "7 || 8"
   }
 }
