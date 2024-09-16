@@ -3,16 +3,16 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.11.3.tgz#f750fab43835ac267332c829b88d50dc9382d5f4"
-  integrity sha512-7b+LlbIADnM+bS9IYTaUTSiNAfTyWq1JmC/+HyUjcE/TT0A5YsvytQFLx/ejx2ayKBfbah2/xW9JStJGPwZInA==
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.11.4.tgz#69c1c9c1efd7cb07f861de641ccdbda0640c57bd"
+  integrity sha512-T7wQHwlIEh3KXz0CxV7NHhffR4xB9BT/nLyAzCUuabmk55aqpkDgf1c24CVnF2sxg7+vKWl6jljKnLpc/T21ow==
   dependencies:
     "@amplitude/analytics-client-common" "^2.3.2"
     "@amplitude/analytics-core" "^2.5.1"
     "@amplitude/analytics-remote-config" "^0.4.0"
     "@amplitude/analytics-types" "^2.8.1"
     "@amplitude/plugin-autocapture-browser" "^1.0.1"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.2.22"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.3.0"
     tslib "^2.4.1"
 
 "@amplitude/analytics-client-common@>=1 <3":
@@ -86,10 +86,10 @@
     rxjs "^7.8.1"
     tslib "^2.4.1"
 
-"@amplitude/plugin-page-view-tracking-browser@^2.2.22":
-  version "2.2.22"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.2.22.tgz#f73008ab33f5cc10a6697382d5f146ea37398d54"
-  integrity sha512-tC/MciHGbvDSU192EuYKU+JAOiGcGFOWYCKTOzBZIi9u9dNo5t+guFTGuR0gnRboSMxRw/H/3a4yJYJ6fsG3Og==
+"@amplitude/plugin-page-view-tracking-browser@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.3.0.tgz#347e756514e7b03da67c492abdbdc58dac9c4b0b"
+  integrity sha512-KjSG6oafCaLpmLpRaZw8MHjT5R5IgDWWwFxW+gpFn9B08LgJkchBGE4dSdu0WcxRfyQ3NLRrVEVAC9K6IzjSpw==
   dependencies:
     "@amplitude/analytics-client-common" "^2.3.2"
     "@amplitude/analytics-types" "^2.8.1"
