@@ -3,16 +3,16 @@
 
 
 "@amplitude/analytics-browser@^2.0.0":
-  version "2.11.10"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.11.10.tgz#fc137d7d3b8b44aaf731ff307c10a7fb4604094a"
-  integrity sha512-+bc+KvAvrFTQefmq+iGDuzdtPdJm9HXHPI58yTnHJeXhXDhneH8cGmT6dfL1SvW/W2kGvBdFXiZMoPuHcR0xKg==
+  version "2.11.11"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-browser/-/analytics-browser-2.11.11.tgz#b41dea21ca97b8688b3e3acf392cc1481d5f9485"
+  integrity sha512-AdpNNPwoNPezojeeU2ITcyqKcrrW8edVBHlCEvDNIXYkf5Y0i5Blbes3x6rgONsOeV2hx85trTXhhVkilWgHcg==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.3.6"
+    "@amplitude/analytics-client-common" "^2.3.7"
     "@amplitude/analytics-core" "^2.5.5"
     "@amplitude/analytics-remote-config" "^0.4.0"
     "@amplitude/analytics-types" "^2.8.4"
     "@amplitude/plugin-autocapture-browser" "^1.0.2"
-    "@amplitude/plugin-page-view-tracking-browser" "^2.3.6"
+    "@amplitude/plugin-page-view-tracking-browser" "^2.3.7"
     tslib "^2.4.1"
 
 "@amplitude/analytics-client-common@>=1 <3":
@@ -25,10 +25,10 @@
     "@amplitude/analytics-types" "^2.7.0"
     tslib "^2.4.1"
 
-"@amplitude/analytics-client-common@^2.3.6":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.3.6.tgz#f10dba8e5b71e72dff77107429cbfc2ba7810e36"
-  integrity sha512-4KAaqevqzYJIUzgjBmH80QDmYgzUAE0JpKz2s7w6cjeoX9DrB1gBa+RqWySULiUeIDfx+DTlhsZPMzFn+og17w==
+"@amplitude/analytics-client-common@^2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@amplitude/analytics-client-common/-/analytics-client-common-2.3.7.tgz#f943325ea317eb89c2eb92291fff19e4b4a3e3ea"
+  integrity sha512-HuwP2MFoeCTZWFIxkeYZOy5GP9ydjRO+n2KUMhHXTXGUx1M9vxIx1BUHsHKOZ4BZ5qEUTacgmznyc6uJJUiCWg==
   dependencies:
     "@amplitude/analytics-connector" "^1.4.8"
     "@amplitude/analytics-core" "^2.5.5"
@@ -86,12 +86,12 @@
     rxjs "^7.8.1"
     tslib "^2.4.1"
 
-"@amplitude/plugin-page-view-tracking-browser@^2.3.6":
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.3.6.tgz#e2b64237a5a58c84bcf52343e43af5ef4007b852"
-  integrity sha512-3NsXskUxIA9m4GedGOCIKOkQ1uGUhuYnP/DpvSXXosJEMRSi82vFxBRX7FnYT1AmV32Du2Z2626CEAEy5W4yeQ==
+"@amplitude/plugin-page-view-tracking-browser@^2.3.7":
+  version "2.3.7"
+  resolved "https://registry.yarnpkg.com/@amplitude/plugin-page-view-tracking-browser/-/plugin-page-view-tracking-browser-2.3.7.tgz#a19e295e5a83c7f29ea02b987ceae2d17453c860"
+  integrity sha512-9LEzU33vpQ1OdPwVn0nwcCqPLkfK3P19hLmFTflx+aBM70TH9xCwvJL6nJ5eyc4kkmE9x7r0mRVnQIxaHfTxGg==
   dependencies:
-    "@amplitude/analytics-client-common" "^2.3.6"
+    "@amplitude/analytics-client-common" "^2.3.7"
     "@amplitude/analytics-types" "^2.8.4"
     tslib "^2.4.1"
 
@@ -1505,9 +1505,9 @@
     undici-types "~6.19.2"
 
 "@types/node@^22.0.0":
-  version "22.10.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.2.tgz#a485426e6d1fdafc7b0d4c7b24e2c78182ddabb9"
-  integrity sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==
+  version "22.10.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.3.tgz#cdc2a89bf6e5d5e593fad08e83f74d7348d5dd10"
+  integrity sha512-DifAyw4BkrufCILvD3ucnuN8eydUfc/C1GlyrnI+LK6543w5/L3VeVgf05o3B4fqSXP1dKYLOZsKfutpxPzZrw==
   dependencies:
     undici-types "~6.20.0"
 
