@@ -1192,10 +1192,10 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
-"@segment/analytics-core@1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-core/-/analytics-core-1.8.0.tgz#7189b79c21b8c41ec7d3dd10b158a756b034f206"
-  integrity sha512-6CrccsYRY33I3mONN2ZW8SdBpbLtu1Ict3xR+n0FemYF5RB/jG7pW6jOvDXULR8kuYMzMmGOP4HvlyUmf3qLpg==
+"@segment/analytics-core@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-core/-/analytics-core-1.8.1.tgz#e9c24cd161ff6d6cfd6ac592c0ed29be680c92be"
+  integrity sha512-EYcdBdhfi1pOYRX+Sf5orpzzYYFmDHTEu6+w0hjXpW5bWkWct+Nv6UJg1hF4sGDKEQjpZIinLTpQ4eioFM4KeQ==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
     "@segment/analytics-generic-utils" "1.2.0"
@@ -1210,12 +1210,12 @@
     tslib "^2.4.1"
 
 "@segment/analytics-next@^1.46.3":
-  version "1.76.0"
-  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.76.0.tgz#38bc7db53360d3af87b566bb10dd7a3c5c5bb262"
-  integrity sha512-4n4vMvX0+bfypFWuu/UJNenT/Gv2+04SsjvnQL1eBd1hngKBV56EkCW+PCJyFRQQ7BnzHgWF4mY+vOPkdoke3A==
+  version "1.76.1"
+  resolved "https://registry.yarnpkg.com/@segment/analytics-next/-/analytics-next-1.76.1.tgz#317954cccd053b5e75bab757822296174d9e3f1f"
+  integrity sha512-y8L7QpB4ipOe2Na3ubgh1IUJ2Olad+7FbMe8uZfZqARN4WNlIwO7DAsA5iy3DkKmRbGzNrI/RaXG/CzFEICd1A==
   dependencies:
     "@lukeed/uuid" "^2.0.0"
-    "@segment/analytics-core" "1.8.0"
+    "@segment/analytics-core" "1.8.1"
     "@segment/analytics-generic-utils" "1.2.0"
     "@segment/analytics.js-video-plugins" "^0.2.1"
     "@segment/facade" "^3.4.9"
@@ -1505,9 +1505,9 @@
     undici-types "~6.19.2"
 
 "@types/node@^22.0.0":
-  version "22.10.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.5.tgz#95af89a3fb74a2bb41ef9927f206e6472026e48b"
-  integrity sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==
+  version "22.10.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.6.tgz#5c6795e71635876039f853cbccd59f523d9e4239"
+  integrity sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==
   dependencies:
     undici-types "~6.20.0"
 
